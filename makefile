@@ -1,10 +1,10 @@
 DESIGN = 1
 
-JSON_DIR = JSON
-MODULE_DIR = Modules
-TESTBENCH_DIR = Testbenches
-CONSTRAINT_DIR = Constraints
-DIAGRAM_DIR = Diagrams
+JSON_DIR = ../JSON
+MODULE_DIR = ../Modules
+TESTBENCH_DIR = ../Testbenches
+CONSTRAINT_DIR = ../Constraints
+DIAGRAM_DIR = ../Diagrams
 
 ifeq ($(DESIGN), 1)
 	name :=
